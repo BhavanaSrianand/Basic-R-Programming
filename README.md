@@ -18,10 +18,10 @@ Author: Bhavana Srianand
 
 #  What will we do in this project?
 1. Summarise the data
-2. To calculate the number of births on Fridays
-3. To calculate the number of births on Friday the 28th
-4. To calculate the births on the weekends
-5. Comparing and contrasting the average weekend and weekday births
+2. Calculate the number of births on Fridays
+3. Calculate the number of births on Friday the 28th
+4. Calculate the births on the weekends
+5. Compare and contrast the average weekend and weekday births
 
 
 # Summarising the data
