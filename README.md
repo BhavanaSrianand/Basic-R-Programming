@@ -40,21 +40,7 @@ nrow(births)
    ``` </pre>
    
 
-
-        year          month      date_of_month    day_of_week  
- Min.   :2000   Min.   :1.00   Min.   : 1.00   Min.   :1.00  
- 1st Qu.:2000   1st Qu.:1.00   1st Qu.: 7.00   1st Qu.:2.00  
- Median :2000   Median :1.00   Median :13.00   Median :4.00  
- Mean   :2000   Mean   :1.38   Mean   :13.72   Mean   :4.04  
- 3rd Qu.:2000   3rd Qu.:2.00   3rd Qu.:19.00   3rd Qu.:6.00  
- Max.   :2000   Max.   :2.00   Max.   :31.00   Max.   :7.00  
-     births     
- Min.   : 7657  
- 1st Qu.: 8879  
- Median :12048  
- Mean   :11070  
- 3rd Qu.:12466  
- Max.   :13032 
+<img width="580" height="328" alt="Screenshot 2025-09-09 at 7 52 15 PM" src="https://github.com/user-attachments/assets/bbc86624-1d4f-4b29-90fd-29522758ea39" />
 
 
 
@@ -68,16 +54,11 @@ nrow(Fridays)
 
     ``` </pre>
 
- [1] 7
 
-   year month date_of_month day_of_week births
-7  2000     1             7           5  12516
-14 2000     1            14           5  12180
-21 2000     1            21           5  11953
-28 2000     1            28           5  11934
-35 2000     2             4           5  12035
-42 2000     2            11           5  12411
-49 2000     2            18           5  12406
+ <img width="627" height="198" alt="Screenshot 2025-09-09 at 7 53 58 PM" src="https://github.com/user-attachments/assets/4ae17f0e-16ac-489e-9418-a707e289ad31" />
+
+
+<img width="209" height="45" alt="Screenshot 2025-09-09 at 7 54 26 PM" src="https://github.com/user-attachments/assets/c8d92dbf-0600-4567-b6fa-d040a259b4c0" />
 
 
 
@@ -95,13 +76,10 @@ NotFriday28=Fridays[which(Fridays[,3]!=28),]
        ``` </pre>
 
 
+<img width="444" height="66" alt="Screenshot 2025-09-09 at 7 56 29 PM" src="https://github.com/user-attachments/assets/fc2d00e1-e9c3-4551-a557-203baea9baa4" />
 
-[1] 1 : Births on Friday the 28th.
 
-
-  year month date_of_month day_of_week births
-28 2000     1            28           5  11934
-
+<img width="592" height="46" alt="Screenshot 2025-09-09 at 7 57 12 PM" src="https://github.com/user-attachments/assets/7e8f0c8f-2460-472c-93bf-3a1e767cbd32" />
 
 
 
@@ -119,27 +97,10 @@ Weekdaybirths
 #Weekday births
      ``` </pre>
 
-
- [1] 15 :  Weekend Births  
+<img width="443" height="745" alt="Screenshot 2025-09-09 at 7 58 51 PM" src="https://github.com/user-attachments/assets/9e4f7699-86ac-44f3-8808-969d2a902b96" />
  
 
-    year month date_of_month day_of_week births
-1  2000     1             1           6   9083
-2  2000     1             2           7   8006
-8  2000     1             8           6   8934
-9  2000     1             9           7   7949
-15 2000     1            15           6   8525
-16 2000     1            16           7   7657
-22 2000     1            22           6   8855
-23 2000     1            23           7   7856
-29 2000     1            29           6   8805
-30 2000     1            30           7   7764
-36 2000     2             5           6   8624
-37 2000     2             6           7   7862
-43 2000     2            12           6   8836
-44 2000     2            13           7   7933
-50 2000     2            19           6   8861
-
+<img width="626" height="52" alt="Screenshot 2025-09-09 at 8 00 54 PM" src="https://github.com/user-attachments/assets/f0628f29-161b-4a55-a8ad-da9db4e0bc06" />
 
 # Getting subset of the data
 
@@ -150,13 +111,7 @@ births$day_of_week[1:10]
 
     ``` </pre>
     
-
- births$day_of_week[1:10]
- [1] 6 7 1 2 3 4 5 6 7 1
-
- births[1:10,4]==5 
- [1] FALSE FALSE FALSE FALSE FALSE FALSE  TRUE FALSE FALSE FALSE
-
+<img width="717" height="82" alt="Screenshot 2025-09-09 at 8 02 11 PM" src="https://github.com/user-attachments/assets/ffa9a420-6ecc-47df-80e8-11d5c067a8dc" />
  
 
  This file has no missing data. However, if we are interested in looking for missing data.
@@ -165,6 +120,9 @@ births$day_of_week[1:10]
  is.na(births[,])
 
      ``` </pre>
+
+
+<img width="319" height="721" alt="Screenshot 2025-09-09 at 8 03 25 PM" src="https://github.com/user-attachments/assets/66ff67dc-ca3c-487e-8aea-eba0d88017c1" />
 
 
 #  Comparing Weekend and Weekday Births
@@ -180,8 +138,9 @@ if (mean(Weekendbirths[,5])> mean(Weekdaybirths[,5]))
   
    ``` </pre>
 
+   
 
-There are less weekend babies on average
+<img width="627" height="133" alt="Screenshot 2025-09-09 at 8 04 43 PM" src="https://github.com/user-attachments/assets/16f85724-f8f6-48f5-9c5a-c7bd2b8f26c9" />
 
 
 
